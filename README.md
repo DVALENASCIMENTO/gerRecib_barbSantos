@@ -1,6 +1,7 @@
 ![image](https://github.com/user-attachments/assets/4f3e08a0-395b-42c2-9aa9-92e7af2b9a34)
 
 # Gerador de Recibos - Barbearia Santos
+https://dvalenascimento.github.io/gerRecib_barbSantos/
 
 Este projeto permite a geração de recibos personalizados para a **Barbearia Santos**. O usuário pode preencher um formulário com os dados do cliente, serviço prestado, valor pago e data de pagamento. Após o preenchimento, o recibo será gerado e pode ser baixado como um arquivo PDF.
 
