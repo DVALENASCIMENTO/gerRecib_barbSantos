@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background-color: #f4f4f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    border: 2px solid #0074D9; /* Azul */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #FF4136; /* Vermelho */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #0074D9; /* Azul */
+}
+
+form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #0074D9;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #FF4136; /* Vermelho */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #85144b;
+}
+
+.receipt-output {
+    margin-top: 20px;
+    background-color: #ffffff;
+    padding: 15px;
+    border: 2px solid #FF4136;
+    border-radius: 4px;
+}
+
+#downloadBtn {
+    padding: 10px;
+    background-color: #0074D9; /* Azul */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#downloadBtn:hover {
+    background-color: #001f3f;
+}
+
+@media (max-width: 768px) {
+    body {
+        height: auto;
+        padding: 10px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+}
